@@ -6,3 +6,4 @@ export { Room } from "./room.js";
 export type { RoomProps } from "./room.js";
 export { Studio } from "./studio.js";
 export type { StudioProps } from "./studio.js";
+export type { StudioRepository } from "./studio-repository.js";
