@@ -19,6 +19,7 @@ export type {
   ChangeTimeSlotProps,
   CreateBookingProps,
 } from "./booking.js";
+export type { BookingRepository } from "./booking-repository.js";
 export { approveExtension, createExtensionRequest, rejectExtension } from "./extension-request.js";
 export type { CreateExtensionRequestProps, ExtensionRequest } from "./extension-request.js";
 export { completePayment, createPayment, refundPayment, withPaymentAmount } from "./payment.js";
