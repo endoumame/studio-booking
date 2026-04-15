@@ -15,7 +15,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.12.9"
+    "@my-app/shared": "workspace:*",
+    "hono": "^4.12.9",
+    "neverthrow": "^8.2.0"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.13.4",
